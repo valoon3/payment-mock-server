@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+  # 주 애플리케이션의 웹훅 기본 URL
+main-app:
+  webhook-url: http://app:8080/api/v1/webhooks/payments
+#  webhook-url: http://localhost:8080/api/v1/webhooks/payments
